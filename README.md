@@ -2,7 +2,7 @@
 
 ## display all the combinantions from the characters lists passed as agruments
 
-'''
+```
 This script is used to generate all possible combinations of the character lists passed as arguments.
 list<X> must be a list of characters separated by comma (or a range specified by - sign) of the <X> output column.
 
@@ -17,11 +17,11 @@ Options must be one of the following:
 Examples:
     brute.pl --sep ' - ' --rev 0,1 0,1 0,1
     brute.pl --index 0x 0-9,A-F 0-9,A-F
-'''
+```
 
 ## Example
 
-'''
+```
 $ ./brute.pl --index 1-3 - xx 5-6 A-B 000 c-d 
   1: 1-xx5A000c
   2: 2-xx5A000c
@@ -47,4 +47,4 @@ $ ./brute.pl --index 1-3 - xx 5-6 A-B 000 c-d
  22: 1-xx6B000d
  23: 2-xx6B000d
  24: 3-xx6B000d
-'''
+```
